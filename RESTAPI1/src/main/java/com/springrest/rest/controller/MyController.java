@@ -27,7 +27,7 @@ public class MyController {
 	private CourseServiceRepo courseService;
 	
 	@GetMapping("/home")
-	public String home() {
+	public String home() {     
 		return "Welcome to courses application";
 	}
 	
